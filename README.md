@@ -27,8 +27,6 @@ The project is organised into packages, each containing classes focusing on part
     - **FailedToWriteToFileException.java**: Manages file-writing errors.
     - **KeyNotFoundException.java**: Thrown when a required decryption key is missing.
 
----
-
 ## Features
 
 - **Puzzle Creation and Encryption**: Generates puzzles encrypted with DES and stores data for later decryption attempts.
