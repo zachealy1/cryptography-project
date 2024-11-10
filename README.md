@@ -2,6 +2,8 @@
 
 This project demonstrates cryptographic concepts by creating, managing, and cracking encrypted puzzles. It leverages DES encryption and includes utilities for puzzle generation, decryption, and custom error handling.
 
+**This work was completed as a part of my undergraduate degree in Applied Software Engineering at Swansea University, which CGI Inc. sponsored.**
+
 ## Project Structure
 
 The project is organised into packages, each containing classes focusing on particular aspects of the puzzle encryption and decryption process.
