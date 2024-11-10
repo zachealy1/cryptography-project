@@ -8,20 +8,20 @@ The project is organised into packages, each containing classes focusing on part
 
 ### Packages and Key Classes
 
-1. **Main Application (`com.yourprojectname.main`)**
+1. **Main Application (`com.puzzle.cracker.main`)**
     - **Main.java**: The main entry point for the application.
     - **PuzzleManager.java**: Manages puzzle-related operations such as creating and cracking puzzles.
 
-2. **Crypto Library (`com.yourprojectname.crypto`)**
+2. **Crypto Library (`com.puzzle.cracker.crypto`)**
     - **CryptoLib.java**: Provides utility methods for encryption, decryption, and key generation.
     - **Constants.java**: Defines constant values used across the cryptographic operations.
 
-3. **Puzzle Management (`com.yourprojectname.puzzle`)**
+3. **Puzzle Management (`com.puzzle.cracker.puzzle`)**
     - **Puzzle.java**: Represents a puzzle with encrypted data and associated keys.
     - **PuzzleCreator.java**: Handles the creation of new puzzles, including generating encrypted puzzle data.
     - **PuzzleCracker.java**: Implements logic to crack puzzles by brute-forcing possible keys and attempting decryption.
 
-4. **Custom Exceptions (`com.yourprojectname.exception`)**
+4. **Custom Exceptions (`com.puzzle.cracker.exception`)**
     - **FailedToEncryptPuzzleException.java**: Handles errors related to encryption failures during puzzle creation.
     - **FailedToWriteBytesException.java**: Thrown when byte data fails to write to output.
     - **FailedToWriteToFileException.java**: Manages file-writing errors.
